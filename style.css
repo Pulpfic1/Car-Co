@@ -134,6 +134,7 @@ img {
     display: none;
     width: 100%;
     height: auto;
+    min-height: 100%;
     margin-top: 5px;
     flex-direction: column;
     justify-content: flex-start;
@@ -143,9 +144,6 @@ img {
     background-image: url(Assets/BackgroundPattern.png);
     background-position: center;
     background-repeat: repeat;
-}
-#ContactTab {
-    min-height: 100%;
 }
 #ServiceBlock {
     display: flex;
