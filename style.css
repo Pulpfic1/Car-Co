@@ -179,6 +179,11 @@ img {
     align-items: center;
     justify-content: center;
 }
+#ExampleServices img {
+    height: auto;
+    width: auto;
+}
+    
 #ExampleImage {
     height: 260px;
     width: 40%;
