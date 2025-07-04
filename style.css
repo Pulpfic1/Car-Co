@@ -195,8 +195,8 @@ a:active {
 #MapBorder {
     display: flex;
     flex-direction: column;
-    height: 650px;
-    width: 470px;
+    height: 500px;
+    width: 620px;
     padding: 10px;
     background-color: rgb(199, 199, 199);
     border: none;
