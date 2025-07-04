@@ -192,6 +192,12 @@ a:active {
     border-radius: 10px;
     width: 40%;
 }
+#MapBorder {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 470px;
+    padding: 10px;
 * {
     box-sizing: border-box;
 }
