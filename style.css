@@ -1,11 +1,13 @@
 body, html {
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
     background-color: #c9c9c9;
 }
 
@@ -38,34 +40,29 @@ a:active {
     padding: 10px;
 }
 #B1, #B2 {
-    height: 280;
+    height: 280px;
     width: 50%;
     display: flex;
     flex-direction: row;
 }
-#B1 img{
+#B1 img, #B2 img {
     justify-content: flex-end;
     object-fit: contain;
     height: auto;
-}
-#B2 img{
-    justify-content: flex-end;
-    object-fit: contain;
-    height: auto;
+    max-width: 100%;
 }
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 #NavigationBar {
     display: flex;
     width: 100%;
     height: 50px;
     margin-top: 5px;
-
     background-color: rgb(158, 158, 158);
 }
-#InfoNav,#LocationNav,#ContactNav {
+#InfoNav, #LocationNav, #ContactNav {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -74,19 +71,18 @@ img {
     height: 50px;
     margin: auto;
     border: none;
-    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: rgb(100, 100, 100);
     background-color: rgb(177, 177, 177);
     transition: 0.3s ease;
 }
-#InfoNav:hover,#LocationNav:hover,#ContactNav:hover {
+#InfoNav:hover, #LocationNav:hover, #ContactNav:hover {
     background-color: rgb(146, 146, 146);
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
-#InfoNav:active,#LocationNav:active,#ContactNav:active {
+#InfoNav:active, #LocationNav:active, #ContactNav:active {
     background-color: rgb(201, 201, 201);
 }
 #InfoRefBack, #MapRefBack {
@@ -140,8 +136,7 @@ img {
 .Tab {
     display: none;
     width: 100%;
-    height: auto;
-    min-height: 100%;
+    min-height: 100vh;
     margin-top: 5px;
     flex-direction: column;
     justify-content: flex-start;
@@ -159,13 +154,13 @@ img {
     justify-content: center;
     align-items: center;
     width: 65%;
-    height: 450px;
+    height: 520px;
     background-color: rgb(156, 156, 156);
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
     padding: 20px;
-    font-size: clamp(0.1rem, 1.5vw, 1.3rem)
+    font-size: clamp(0.1rem, 1.5vw, 1.3rem);
 }
 #ExampleBlock {
     display: flex;
@@ -175,7 +170,7 @@ img {
 #ExampleServices {
     display: flex;
     background-color: rgb(126, 126, 126);
-    height: 260px;
+    height: 300px;
     width: 40%;
     text-align: left;
     border-radius: 10px;
@@ -186,7 +181,7 @@ img {
     justify-content: center;
 }
 #ExampleImage {
-    height: 260px;
+    height: 300px;
     width: 40%;
     border-radius: 10px;
     padding: 20px;
@@ -223,4 +218,3 @@ img {
 * {
     box-sizing: border-box;
 }
-
