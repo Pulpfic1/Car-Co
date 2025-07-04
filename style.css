@@ -36,7 +36,7 @@ a:active {
     background-color: rgb(255, 255, 255);
     padding: 10px;
 }
-#B1, B2 {
+#B1, #B2 {
     height: 100%;
     width: 50%;
     display: flex;
