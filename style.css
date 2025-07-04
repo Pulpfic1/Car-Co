@@ -201,6 +201,9 @@ a:active {
     background-color: rgb(199, 199, 199);
     border: none;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 * {
     box-sizing: border-box;
