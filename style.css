@@ -42,6 +42,11 @@ a:active {
     display: flex;
     flex-direction: row;
 }
+#B1 img{
+    justify-content: flex-end;
+    object-fit: contain;
+    height: auto;
+}
 #B2 img{
     justify-content: flex-end;
     object-fit: contain;
