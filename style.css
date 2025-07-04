@@ -186,10 +186,11 @@ img {
     justify-content: center;
 }
 #ExampleServices img {
-    height: auto;
-    width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
-    
 #ExampleImage {
     height: 260px;
     width: 40%;
