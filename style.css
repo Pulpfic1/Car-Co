@@ -37,7 +37,7 @@ a:active {
     padding: 10px;
 }
 #B1, #B2 {
-    height: 100%;
+    height: 300px;
     width: 50%;
     display: flex;
     flex-direction: row;
